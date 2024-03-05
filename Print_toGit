@@ -1,3 +1,5 @@
 print("Git is awesome!")
 name = input("Please enter your name: ")
-print(name)
+title = input("Please enter your title: ")
+age = input("Please enter your age: ")
+print(f"Hello {title} {name} !" )
